@@ -168,20 +168,20 @@ void RigidBody::collisionDetect(Rigidstate& rigidState, StateDot& rigidStateDot,
 					}
 				}
 			}
-				// update p and l
-				Matrix3x3 R = rigidState.quater.rotation();
-				Matrix3x3 Iinverse = R * (Io.inv()) * (R.transpose());
-				Vector3d w = Iinverse * rigidState.lamom;
-				Vector3d r = vertexPos[i] - center;
+			// update p and l
+			Matrix3x3 R = rigidState.quater.rotation();
+			Matrix3x3 Iinverse = R * (Io.inv()) * (R.transpose());
+			Vector3d w = Iinverse * rigidState.lamom;
+			Vector3d r = vertexPos[i] - center;
 
-				Vector3d bt_norm = Vector3d(0, 1, 0);
-				double Vn = bt_norm * (rigidStateDot.velocity + w % r);
-				double j = -1 * (1 + Cr)*Vn / (1.0 / mass + bt_norm * (Iinverse*(r%bt_norm) % r));
-				Vector3d J = j * bt_norm;
+			Vector3d bt_norm = Vector3d(0, 1, 0);
+			double Vn = bt_norm * (rigidStateDot.velocity + w % r);
+			double j = -1 * (1 + Cr)*Vn / (1.0 / mass + bt_norm * (Iinverse*(r%bt_norm) % r));
+			Vector3d J = j * bt_norm;
 
-				rigidState.pfmom = rigidState.pfmom + J;
-				rigidState.lamom = rigidState.lamom + r % J;
-				statesNumInt(rigidState, rigidStateDot, rigidStateNew, h);
+			rigidState.pfmom = rigidState.pfmom + J;
+			rigidState.lamom = rigidState.lamom + r % J;
+			statesNumInt(rigidState, rigidStateDot, rigidStateNew, h);
 			
 		}
 	}
@@ -193,7 +193,8 @@ void RigidBody::collisionDetect(Rigidstate& rigidState, StateDot& rigidStateDot,
 
 
 
-
+	// abandoned updating solution
+	
 	/*
 
 
