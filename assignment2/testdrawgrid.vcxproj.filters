@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{122961c7-ecac-4f32-8cfd-3e05b8fae57a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{93229a2a-6d9b-4f0d-b170-0708c68e8dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loadImg">
+      <UniqueIdentifier>{5fc77c8c-91fa-49ee-bc29-1e67cbee6673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bezier">
+      <UniqueIdentifier>{1b1ac9c9-f860-4ed8-bed7-fc06f5fce99d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\common.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\shader_m.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\stb_image.h">
+      <Filter>loadImg</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\stb_image_write.h">
+      <Filter>loadImg</Filter>
+    </ClInclude>
+    <ClInclude Include="bezier\mlbezier.h">
+      <Filter>bezier</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3rdparty\stb_image.cpp">
+      <Filter>loadImg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\assignment2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
