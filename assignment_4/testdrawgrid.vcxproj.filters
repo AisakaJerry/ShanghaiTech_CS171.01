@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{93229a2a-6d9b-4f0d-b170-0708c68e8dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{122961c7-ecac-4f32-8cfd-3e05b8fae57a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rigid">
+      <UniqueIdentifier>{ee216738-53eb-45fd-87f8-c3b9b1a7da08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdparty">
+      <UniqueIdentifier>{cc541aab-5192-4226-9948-2b8e19734e3d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\common.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\shader_s.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\shader_m.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="rigid\rigidBody.h">
+      <Filter>rigid</Filter>
+    </ClInclude>
+    <ClInclude Include="rigid\stateDot.h">
+      <Filter>rigid</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\Matrix.h">
+      <Filter>3rdparty</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\quaternion.h">
+      <Filter>3rdparty</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\Utility.h">
+      <Filter>3rdparty</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\Vector.h">
+      <Filter>3rdparty</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rigid\Rigidstate.h">
+      <Filter>rigid</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="rigid\rigidBody.cpp">
+      <Filter>rigid</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\Matrix.cpp">
+      <Filter>3rdparty</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\quaternion.cpp">
+      <Filter>3rdparty</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\Utility.cpp">
+      <Filter>3rdparty</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\Vector.cpp">
+      <Filter>3rdparty</Filter>
+    </ClCompile>
+    <ClCompile Include="test\assignment4.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="rigid\ground.bmp">
+      <Filter>rigid</Filter>
+    </Image>
+    <Image Include="rigid\mofang.bmp">
+      <Filter>rigid</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
