@@ -9,3 +9,5 @@ Assignment 1: Creating your first OpenGL program
 Assignment 2: Geometric modeling  
 Assignment 3: Realistic rendering with ray tracing  
 Assignment 4: Rigid body animation  
+
+Course Website: http://sist.shanghaitech.edu.cn/faculty/liuxp/course/s!AvhyQ31jLRnowxhOB64TPHRdbjic3gh2cg1/ 
