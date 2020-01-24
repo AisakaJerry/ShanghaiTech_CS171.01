@@ -1,5 +1,5 @@
 # ShanghaiTech_CS171.01
-Computer Graphics Assignment
+Computer Graphics Project
 
 FOR REFERENCE ONLY  
 **Disclaimer Notices**  
